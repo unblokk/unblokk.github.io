@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<script>
+//Check if the page is loaded in an iframe
+if(window.self != window.top) {
+  //Almost all browsers will deny Cross-Origin script access, so
+  //we will use a try-catch block
+  try {
+    if(window.parent.location.hostname.indexOf("https://unblokk.github.io") == -1) {
+      window.location.href = "https://unblokk.github.io";
+    } else {
+      //You are in an iframe but Same-Origin
+    }
+  } catch (ex) {
+    //Well, the person who owns this site is stealing my games (https://unblokk.github.io)
+    window.location.href = "https://unblokk.github.io";
+  }
+}
+</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:black;">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>Unblokk | We remove braincells!</title>
+</head>
+<body>
+
+<center><h1 style="color:white;">Welcome to Unblokk!</h1></center>
+<center><p><b><a href="/play/2048/index.html" target="_blank">2048</a></b></p></center>
+<center><p><b><a href="/play/cookieclicker/index.html" target="_blank">Cookie Clicker</a></b></p></center>
+<center><p><b><a href="/play/cuttherope/index.html" target="_blank">Cut The Rope</a></b></p></center>
+<center><p><b><a href="/play/fnf/index.html" target="_blank">Friday Night Funkin'</a></b></p></center>
+<center><p><b><a href="/play/gba/index.html" target="_blank">GBA Emulator</a></b></p></center>
+<center><p><b><a href="/play/hexgl/index.html" target="_blank">HexGL</a></b></p></center>
+<center><p><b><a href="/play/hextris/index.html" target="_blank">Hextris</a></b></p></center>
+<center><p><b><a href="/play/particleclicker/index.html" target="_blank">Particle Clicker</a></b></p></center>
+<center><p><b><a href="/play/sharkgame/index.html" target="_blank">Shark Game</a></b></p></center>
+<center><p><b><a href="/play/slope/index.html" target="_blank">Slope</a></b></p></center>
+<center><p><b><a href="/play/sm64/index.html" target="_blank">Super Mario 64</a></b></p></center>
+<center><p><b><a href="/play/smashkarts/index.html" target="_blank">SmashKarts</a></b></p></center>
+<center><p><b><a href="/play/sortthecourt/index.html" target="_blank">Sort The Court</a></b></p></center>
+<center><p><b><a href="/play/tanukisunset/index.html" target="_blank">Tanuki Sunset</a></b></p></center>
+<center><p><b><a href="/play/tunnelrush/index.html" target="_blank">Tunnel Rush</a></b></p></center>
+<center><p><b><a href="/play/wordle/index.html" target="_blank">Wordle</a></b></p></center>

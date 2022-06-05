@@ -1,0 +1,7 @@
+{
+  "name": "Unblokk",
+  "description": "A unblocked that you can host!",
+  "repository": "https://github.com/unblokk/unblokk.github.io",
+  "logo": "https://avatars.githubusercontent.com/u/106842393",
+  "keywords": ["node", "express", "static"]
+}
