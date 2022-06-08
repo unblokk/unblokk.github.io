@@ -1,40 +1,29 @@
-![Five Nights at Freddy's](https://vignette.wikia.nocookie.net/freddy-fazbears-pizza/images/0/0c/Show_stage_nocamera.png/revision/latest?cb=20150119023526)
+# FNAF-JS
+The first FNAF game in JavaScript/HTML.
 
-# ~ Five Nights at Freddy's Web
+Ported without reverse engineering of the MMF code; port was done entirely by "reflection"
 
-A web version I've made of the popular horror game [Five Nights at Freddy's](fnafar.com/). 
-⚛️ It was made using popular technologies like [ReactJS](https://pt-br.reactjs.org/) and [Redux](https://redux.js.org/).
+Pretty much finished, just needs method of auth.
 
-Uma versão na Web que eu fiz do famoso jogo de terror [Five Nights at Freddy's](fnafar.com/). 
-⚛️ Foi feito usando tecnologias populares como [ReactJS](https://pt-br.reactjs.org/) e [Redux](https://redux.js.org/).
+Will use NW.js for distribution as executable for Windows, Mac and Linux, as well as Greenworks for DRM to verify the user owns FNAF on Steam. Alternatively, a PHP script.
 
-## VERSION 3.0 ⭐
-- Added custom night!
+Includes used:
+  - JQuery
+  - NW.js
+  - Greenworks
+  - JQuery timer
+  - WebP converter
+  - SeamlessLoop.js
+  - Script loader by chrysls
+  - JSDoc3 (for documentation)
 
-~ Link: [https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/](https://wellsousaaa.github.io/Five-Nights-at-Freddys-Web/)
+# How to run
 
-![Five Nights at Freddy's](FNAF.webp)
+- ~~Click "Download Zip" on the right hand side~~
+- ~~Extract the zip file somewhere.~~
+- ~~Open feed.html in Google Chrome (other browsers may work but are unsupported).~~
 
-## Installation
+In an effort to "clean" my Github repositories of copyrighted content, this is no longer playable as the graphics/sounds are no longer provided. The code is still there, however.
 
-First you need to clone this repository
-
-```
-git clone https://github.com/wellsousaaa/Five-Nights-at-Freddys-Web.git
-```
-
-Then start it using npm or yarn
-
-```
-npm install
-```
-
-Then start localhost
-
-```
-npm start
-```
-
-## Credits
-
-This project was made by Wendell Sousa :D
+# Documentation
+Preliminary documentation can be found here: http://slynch.ovh/FNAF-JS-Doc/
