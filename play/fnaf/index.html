@@ -15,6 +15,32 @@
   <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1920px)" href="1080.css" />
   <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="640.css" />
 </head>
+<script>
+//Check if the page is loaded in an iframe
+if(window.self != window.top) {
+  //Almost all browsers will deny Cross-Origin script access, so
+  //we will use a try-catch block
+  try {
+    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
+      window.location.href = "https://unblokk.xyz";
+    } else {
+      //You are in an iframe but Same-Origin
+    }
+  } catch (ex) {
+    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
+    window.location.href = "https://unblokk.xyz";
+  }
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3VZGB69F81');
+</script>
 
 <body id="mainbody">
 	<video id="gameoverstaticimg" style="position:absolute;opacity:2;zoom:2.0;display:none;z-index:999;" src="graphics/camera/static_test5.webm" loop hidecontrols preload></video>
@@ -155,32 +181,7 @@
 	<script src="script/SeamlessLoop.js" type="text/javascript"></script> <!-- Loaded separately so sound.js operates normally -->
 	<script src="script/ScriptLoader.js" type="text/javascript"></script>
 	<script>
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
-      window.location.href = "https://unblokk.xyz";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
-    window.location.href = "https://unblokk.xyz";
-  }
-}
-</script> 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-3VZGB69F81');
-</script>
 	if(BUILD_TARGET == "NW.JS"){
 		require('nw.gui').Window.get().evalNWBin(null, 'script/SeamlessLoop.js.bin');
 		require('nw.gui').Window.get().evalNWBin(null, 'script/variables.js.bin');
