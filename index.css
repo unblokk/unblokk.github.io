@@ -76,17 +76,17 @@ body {
 }
 /* unvisited link */
 a:link {
-  color: blue;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: blue;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: purple;
+  color: grey;
 }
 
 /* selected link */

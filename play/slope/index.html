@@ -5,36 +5,7 @@
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
     </script>
-    
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3VZGB69F81');
-</script>
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
-      window.location.href = "https://unblokk.xyz";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
-    window.location.href = "https://unblokk.xyz";
-  }
-}
-</script>
 </head>
-<link rel="shortcut icon" type="image/png" href="logo.png" />
-<title>Slope | Unblokk</title>
 <!--- 
 Want to run or host yourself? Check out the source? 
 https://github.com/cgolden15/Slope-Game/ 

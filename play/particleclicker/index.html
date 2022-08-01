@@ -1,34 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="particleClicker">
   <head>
-
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
-      window.location.href = "https://unblokk.xyz";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
-    window.location.href = "https://unblokk.xyz";
-  }
-}
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3VZGB69F81');
-</script>
-    <title>Particle Clicker | Unblokk</title>
+    <title>Particle Clicker</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -41,7 +14,7 @@ if(window.self != window.top) {
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     
-    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
     <link rel="apple-touch-icon" href="assets/mobile/icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/mobile/icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">

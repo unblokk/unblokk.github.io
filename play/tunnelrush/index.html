@@ -1,44 +1,19 @@
 <html>
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
-      window.location.href = "https://unblokk.xyz";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
-    window.location.href = "https://unblokk.xyz";
-  }
-}
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3VZGB69F81');
-</script>
-
-<link rel="shortcut icon" type="image/png" href="logo.png" />
   <head>
+    <script>var aiptag={cmd:{player:[]}}</script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Tunnel Rush | Unblokk</title>
-    <link rel="stylesheet" href="style/style.css">
-	<script src="UnityLoader.js"></script>
+    <title>Tunnel Rush</title>
+    <link rel="shortcut icon" href="style/favicon.ico">
+    <style>*{margin:0;overflow:hidden;}</style>
+	  <script src="UnityLoader.js"></script>
     <script src="UnityProgress.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "build.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
   </head>
   <body>
+<<<<<<< Updated upstream
    <!-- Game by Unblokk
 https://unblokk.xyz/
 -->
@@ -50,5 +25,8 @@ https://unblokk.xyz/
 	            <div class="title">Tunnel Rush</div>
 	        </div>
     </div>
+=======
+    <div id="gameContainer" style="width: 100%; height: 100%; margin: auto;"></div>
+>>>>>>> Stashed changes
   </body>
 </html>

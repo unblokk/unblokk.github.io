@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Eaglercraft | Unblokk</title>
+<title>Eaglercraft</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. You can join real Minecraft 1.5.2 servers with it through a custom proxy based on Bungeecord." />
@@ -16,23 +16,6 @@
 <!-- Change this: <meta property="og:url" content="https://unblokk.xyz/play/eaglercraft/" /> -->
 <script type="text/javascript" src="classes.js"></script>
 
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.xyz") == -1) {
-      window.location.href = "https://unblokk.xyz";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.xyz)
-    window.location.href = "https://unblokk.xyz";
-  }
-}
-</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
 <script>

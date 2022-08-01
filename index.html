@@ -17,6 +17,24 @@ if(window.self != window.top) {
   }
 }
 </script>
+<script> 
+var randomlinks = [];
+randomlinks[0]="http://ducksarethebest.com/";
+randomlinks[1]="http://cant-not-tweet-this.com/";
+randomlinks[2]="http://just-shower-thoughts.tumblr.com/";
+randomlinks[3]="http://www.fallingfalling.com/";
+randomlinks[4]="http://www.partridgegetslucky.com/";
+randomlinks[5]="http://ducksarethebest.com/";
+randomlinks[6]="http://cant-not-tweet-this.com/";
+randomlinks[7]="http://just-shower-thoughts.tumblr.com/";
+randomlinks[8]="http://www.fallingfalling.com/";
+randomlinks[9]="http://www.staggeringbeauty.com/";
+randomlinks[10]="http://www.trypap.com/";
+
+function randomlink(){
+  window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
+}
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +47,21 @@ if(window.self != window.top) {
     <link rel="shortcut icon" type="image/png" href="logo.png" />
     <title>Unblokk | The school blocks, I unblock.</title>
 </head>
+<style>
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  color: Black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+</style>
 <body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3VZGB69F81"></script>
@@ -41,22 +74,33 @@ if(window.self != window.top) {
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3661048773773632"
      crossorigin="anonymous"></script>
-
 <center><h1 style="color:white;">Welcome to Unblokk!</h1></center>
-<center><p><b><a href="/play/2048/index.html" target="_blank">2048</a></b></p></center>
-<center><p><b><a href="/play/cookieclicker/index.html" target="_blank">Cookie Clicker</a></b></p></center>
-<center><p><b><a href="/play/cuttherope/index.html" target="_blank">Cut The Rope</a></b></p></center>
-<center><p><b><a href="/play/fnf/index.html" target="_blank">Friday Night Funkin'</a></b></p></center>
-<center><p><b><a href="/play/eaglercraft/index.html" target="_blank">Eaglercraft (Glitchy Minecraft)</a></b></p></center>
-<center><p><b><a href="/play/fnaf/index.html" target="_blank">Five Nights at Freddy's</a></b></p></center>
-<center><p><b><a href="/play/gba/index.html" target="_blank">GBA Emulator</a></b></p></center>
-<center><p><b><a href="/play/hexgl/index.html" target="_blank">HexGL</a></b></p></center>
-<center><p><b><a href="/play/hextris/index.html" target="_blank">Hextris</a></b></p></center>
-<center><p><b><a href="/play/particleclicker/index.html" target="_blank">Particle Clicker</a></b></p></center>
-<center><p><b><a href="/play/sharkgame/index.html" target="_blank">Shark Game</a></b></p></center>
-<center><p><b><a href="/play/slope/index.html" target="_blank">Slope</a></b></p></center>
-<center><p><b><a href="/play/sm64/index.html" target="_blank">Super Mario 64</a></b></p></center>
-<center><p><b><a href="/play/smashkarts/index.html" target="_blank">SmashKarts</a></b></p></center>
-<center><p><b><a href="/play/sortthecourt/index.html" target="_blank">Sort The Court</a></b></p></center>
-<center><p><b><a href="/play/tanukisunset/index.html" target="_blank">Tanuki Sunset</a></b></p></center>
-<center><p><b><a href="/play/tunnelrush/index.html" target="_blank">Tunnel Rush</a></b></p></center>
+<center><p style="color:white;">The Premier Gaming Website with 100+ Games!</p></center>
+<br>
+<script async src="https://cse.google.com/cse.js?cx=f19d1392b92fe4d6c">
+</script>
+<div class="gcse-search"></div>
+<br>
+<form method="post">
+    <p><input type="button" class="button" name="Random" value="Pick a Game for Me!" onclick="randomlink()"></p> 
+</form>
+<br>
+<a href="/play/2048/index.html" class="button">2048</a>
+<a href="/play/cookieclicker/index.html" class="button">Cookie Clicker</a>
+<a href="/play/cuttherope/index.html" class="button">Cut The Rope</a>
+<a href="/play/eaglercraft/index.html" class="button">Eaglercraft</a>
+<a href="/play/fnaf/index.html" class="button">Five Nights at Freddy's</a>
+<a href="/play/fnf/index.html" class="button">Friday Night Funkin'</a>
+<br>
+<a href="/play/gba/index.html" class="button">GBA Emulator</a>
+<a href="/play/hexgl/index.html" class="button">HexGL</a>
+<a href="/play/particleclicker/index.html" class="button">Particle Clicker</a>
+<a href="/play/sharkgame/index.html" class="button">Shark Game</a>
+<a href="/play/cuttherope/index.html" class="button">Slope</a>
+<a href="/play/slope/index.html" class="button">Super Mario 64</a>
+<br>
+<a href="/play/smashkarts/index.html" class="button">SmashKarts</a>
+<a href="/play/sortthecourt/index.html" class="button">Sort The Court</a>
+<a href="/play/tanukisunset/index.html" class="button">Tanuki Sunset</a>
+<a href="/play/tunnelrush/index.html" class="button">Tunnel Rush</a>
+
