@@ -1,22 +1,5 @@
 <!DOCTYPE html>
 <html>
-<script>
-//Check if the page is loaded in an iframe
-if(window.self != window.top) {
-  //Almost all browsers will deny Cross-Origin script access, so
-  //we will use a try-catch block
-  try {
-    if(window.parent.location.hostname.indexOf("https://unblokk.github.io") == -1) {
-      window.location.href = "https://unblokk.github.io";
-    } else {
-      //You are in an iframe but Same-Origin
-    }
-  } catch (ex) {
-    //Well, the person who owns this site is stealing my games (https://unblokk.github.io)
-    window.location.href = "https://unblokk.github.io";
-  }
-}
-</script>
 <script> 
 var randomlinks = [];
 randomlinks[0]="http://ducksarethebest.com/";
@@ -75,13 +58,8 @@ function randomlink(){
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3661048773773632"
      crossorigin="anonymous"></script>
 <center><h1 style="color:white;">Welcome to Unblokk!</h1></center>
-<center><p style="color:white;">The Premier Gaming Website with 100+ Games!</p></center>
+<center><p style="color:white;">The Premier Gaming Website with 200+ Games!</p></center>
 <br>
-<script async src="https://cse.google.com/cse.js?cx=f19d1392b92fe4d6c">
-</script>
-<div class="gcse-search"></div>
-<br>
-<form method="post">
     <p><input type="button" class="button" name="Random" value="Pick a Game for Me!" onclick="randomlink()"></p> 
 </form>
 <br>
